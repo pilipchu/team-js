@@ -30,9 +30,9 @@
 // const question = prompt("Яка офіційна назва JavaScript?");
 // console.log("🚀 ~  question:", question);
 // if (question==="ECMAScript") {
-//   alert ("Вірно!")  
+//   alert ("Вірно!")
 // } else {
-//   alert("Не знаєте? ECMAScript!")  
+//   alert("Не знаєте? ECMAScript!")
 // }
 
 //TODO:  № 4   =============================================
@@ -56,3 +56,39 @@
 // const modifyHours = String(hours).padStart(2, 0);
 // console.log(modifyHours);
 // console.log(`${modifyHours}:${modifyMinuts}`);
+
+
+
+
+
+//TODO: № 3 ============================================
+// У змінній min лежить число від 0 до 59. Визначте у котру чверть години
+// Попадає це число (у першу, другу, третю або четверту).
+
+
+
+//TODO: № 5 for =============================================
+//Напишіть цикл, який виводить у консоль
+// числа від max до min за спаданням
+// Додайте усі парні числа від min до max
+
+
+
+//TODO: № 5
+// Напишіть if..else, що відповідає наступному switch:
+// const browser = "Opera"
+// switch (browser) {
+//   case 'Edge':
+//     alert( "You've got the Edge!" );
+//     break;
+
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert( 'Okay we support these browsers too' );
+//     break;
+
+//   default:
+//     alert( 'We hope that this page looks ok!' );
+// }
