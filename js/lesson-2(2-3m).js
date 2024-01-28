@@ -49,4 +49,15 @@
 // }
 // console.log(minNumber(6, Number(false)));
 
+//TODO: № 4 ==============================================================
+// напиши функцію яка сумуватиме сусідні числа і пушити в новий масив
+const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
 
+function totalArrays(someArr) {
+  const newArray = []
+  for (let i = 0; i < someArr.length-1; i+=1) {
+    newArray.push(someArr[i] + someArr[i+1])
+  }
+  return newArray
+  }
+console.log(totalArrays(someArr))
