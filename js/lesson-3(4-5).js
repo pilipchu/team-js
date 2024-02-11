@@ -65,3 +65,29 @@
 
 // console.log(letMeSeeYourName(greet));
 
+// // /TODO: № 3 на this ✅ ==============================================
+// //Виправте помилки, щоб код працював
+// const product = {
+//   price: 5000,
+//   showPrice() {
+//     console.log(this.price);    },
+// };
+// product.showPrice();
+
+//TODO: № 4 на this ✅==============================================
+//Виправте помилки, щоб код працював
+
+// function callAction(action) {
+//     // action();
+//     return action;
+// }
+
+// const item = {
+//   getQuatity() {
+//     console.log(this.quantity);
+//   },
+//   quantity: 5,
+// };
+
+// // callAction(item.getQuatity.bind(item));
+// callAction(item.getQuatity());
