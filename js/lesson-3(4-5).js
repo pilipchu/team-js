@@ -113,5 +113,24 @@
 // user.premium = false
 
 // for (const key of Object.keys(user)) {
-//   console.log(`${key}: ${user[key]}`)  
+//   console.log(`${key}: ${user[key]}`)
 // }
+
+//TODO: № 6 ==============================================================
+// В нас є объект, в якому зберігаються зарплатні
+// нашої команди
+// Напишіть код для підсумовання всіх зарплат і
+// Збережіть його результат в перемінну sum.
+// Якщо объект salaries пустий, тоді результат має бути 0
+
+// const salaries = {
+//   Mango: 100,
+//   Poly: 160,
+//   Ajax: 1470,
+// };
+
+// let sum = 0;
+// for (const value of Object.values(salaries)) {
+//   sum += value;
+// }
+// console.log(sum);
