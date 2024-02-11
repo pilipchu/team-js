@@ -43,3 +43,25 @@
 //     .flatMap(course => course.topics)
 //     .filter((item, index, arr) => arr.indexOf(item) === index)
 // console.log(allTopics)
+
+//TODO № 2 з колбеком =====================================
+//Напишіть дві функції
+// letMeSeeYourName(callback) - запитує ім'я користувача
+//через prompt та викликає callback функцію
+//greet(name) - коллбек, що приймає ім'я і логірує в консоль
+//Рядок "Привіт <name>"
+//Реалізуй перевірку, що prompt не порожній
+
+// function letMeSeeYourName(callback) {
+// const name = prompt("What is your name?")
+// if (!name) {
+//     alert(`Введіть ім'я`)
+//     return;
+// }
+// return callback(name);
+// }
+
+// const greet = name => alert(`Привіт, ${name}`);
+
+// console.log(letMeSeeYourName(greet));
+
