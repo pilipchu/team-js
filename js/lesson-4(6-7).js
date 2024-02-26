@@ -32,3 +32,27 @@ const inp = document.querySelector("#alertInput")
 
 btn.addEventListener("click", () => {console.log("жмякнули на кнопку", inp.value); })
 */
+
+//TODO: № 3 ==============================================
+// Кнопка "Приховати" ховає текст і замінює назву кнопки на
+// "Розкрити", при повторному натисканні текст знову стає доступним
+// і кнопка набуває початкового вигляду.
+const int = document.querySelector('#passwordInput')
+const btn = document.querySelector('#passwordButton')
+
+btn.addEventListener('click', showPass)
+
+function showPass() {
+    let typeInt = int.getAttribute('type')
+    if (typeInt === "text") {
+        typeInt = "password"
+    } else {
+        typeInt="text"
+    }
+    int.setAttribute('type', typeInt)
+    console.log(typeInt)
+    const textBtn = btn.textContent 
+    const toggleBtn = textBtn === 'Приховати' ? 'Розкрити' : 'Приховати'
+    btn.textContent = toggleBtn
+}
+
